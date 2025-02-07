@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>bin\Debug\net8.0-windows\resources\Images\icons\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0-windows\resources\Images\icons\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0-windows\resources\Category.xls" />
+    <None Include="bin\Debug\net8.0-windows\resources\Category.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\C635R4.jpg" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\D493Y7.jpg" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\D936R6.png" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\F735H6.jpg" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\G836H6.jpg" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\G843Y6.jpg" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\icons\icon.ico" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\icons\logo.png" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\icons\Thumbs.db" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\picture.png" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\S395J7.jpg" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\S538J7.jpg" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\S648N6.png" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\Thumbs.db" />
+    <None Include="bin\Debug\net8.0-windows\resources\Images\А112Т4.png" />
+    <None Include="bin\Debug\net8.0-windows\resources\Manufacturer.xls" />
+    <None Include="bin\Debug\net8.0-windows\resources\Manufacturer.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\mssql_script.sql" />
+    <None Include="bin\Debug\net8.0-windows\resources\order_import.xls" />
+    <None Include="bin\Debug\net8.0-windows\resources\order_import.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\pickups_import.xls" />
+    <None Include="bin\Debug\net8.0-windows\resources\pickups_import.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\products_import.xls" />
+    <None Include="bin\Debug\net8.0-windows\resources\products_import.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\Roles.xls" />
+    <None Include="bin\Debug\net8.0-windows\resources\Roles.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\Status.xls" />
+    <None Include="bin\Debug\net8.0-windows\resources\Status.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\Supplier.xls" />
+    <None Include="bin\Debug\net8.0-windows\resources\Supplier.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\users_import.xlsx" />
+    <None Include="bin\Debug\net8.0-windows\resources\users_import1.xls" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyCaptcha.Wpf" Version="0.9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>

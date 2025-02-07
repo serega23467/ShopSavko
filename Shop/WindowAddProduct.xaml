@@ -1,0 +1,39 @@
+﻿<Window x:Class="Shop.WindowAddProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shop"
+        mc:Ignorable="d"
+        Title="Окно добавления товара" Height="702" Width="373" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="textBoxArticle" HorizontalAlignment="Left" Margin="164,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Артикль" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,92,0,0" TextWrapping="Wrap" Text="Картинка" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <Image x:Name="imageBox" HorizontalAlignment="Left" Height="56" Margin="164,81,0,0" VerticalAlignment="Top" Width="76" Stretch="Fill"/>
+        <Button x:Name="buttonImage" Content="Выбор картинки" HorizontalAlignment="Left" Margin="10,143,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Background="#FF498251" Click="buttonImage_Click"/>
+        <Button x:Name="buttonAdd" Content="Добавить" HorizontalAlignment="Left" Margin="13,566,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Background="#FF498251" FontSize="20" Click="buttonAdd_Click"/>
+
+        <TextBox x:Name="textBoxName" HorizontalAlignment="Left" Margin="164,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS"/>
+        <TextBlock x:Name="Название" HorizontalAlignment="Left" Margin="10,178,0,0" TextWrapping="Wrap" Text="Название" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="textBoxDescriptiom" HorizontalAlignment="Left" Margin="164,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS" Height="69"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,206,0,0" TextWrapping="Wrap" Text="Описание" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="textBoxCategory" HorizontalAlignment="Left" Margin="164,289,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,289,0,0" TextWrapping="Wrap" Text="Категория" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="textBoxSupplier" HorizontalAlignment="Left" Margin="164,318,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,318,0,0" TextWrapping="Wrap" Text="Поставщик" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="textBoxCost" HorizontalAlignment="Left" Margin="164,347,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS" PreviewTextInput="textBoxCost_PreviewTextInput"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,347,0,0" TextWrapping="Wrap" Text="Цена" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="textBoxDiscount" HorizontalAlignment="Left" Margin="164,376,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS" PreviewTextInput="textBoxAmount_PreviewTextInput"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,376,0,0" TextWrapping="Wrap" Text="Скидка" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="textBoxMaxDiscount" HorizontalAlignment="Left" Margin="164,407,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS" PreviewTextInput="textBoxAmount_PreviewTextInput"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,407,0,0" TextWrapping="Wrap" Text="Максимальная скидка" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="textBoxAmount" HorizontalAlignment="Left" Margin="164,439,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS" PreviewTextInput="textBoxAmount_PreviewTextInput"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,439,0,0" TextWrapping="Wrap" Text="Колво на складе" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="textBoxMeasure" HorizontalAlignment="Left" Margin="164,471,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" FontFamily="Comic Sans MS" MaxLength="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,471,0,0" TextWrapping="Wrap" Text="Единица измерения" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,504,0,0" TextWrapping="Wrap" Text="Производитель" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <ComboBox x:Name="comboBoxManufactor" HorizontalAlignment="Left" Margin="164,505,0,0" VerticalAlignment="Top" Width="199"/>
+
+    </Grid>
+</Window>
